@@ -18,7 +18,11 @@ https://github.com/NJU-TJL/smsAPP-Android
 
 ② 用IntelliJ IDEA打开本项目，运行即可。
 
-注：此程序使用Java提供的TCP Socket API实现与客户端通信，所以如果没有一台具有公网IP的机器，在局域网内部署本程序也是可以的，只需要在客户端Android程序的源代码中填入局域网内运行本程序的机器的私有IP地址即可（可按照["关于源代码的使用"中的说明](https://github.com/NJU-TJL/smsAPP-Android)填写）。
+**说明：**
+
++ 其中的数据库功能需要部署好MySQL Server环境
++ 如果无法编译，在IntelliJ IDEA中可能需要重新设置项目中使用到的第三方jar包(项目目录的`./libs`文件夹下)的位置
++ 此程序使用Java提供的TCP Socket API实现与客户端通信，所以如果没有一台具有公网IP的机器，在局域网内部署本程序也是可以的，只需要在客户端Android程序的源代码中填入局域网内运行本程序的机器的私有IP地址即可（可按照["关于源代码的使用"中的说明](https://github.com/NJU-TJL/smsAPP-Android)填写）。
 
 ****
 
