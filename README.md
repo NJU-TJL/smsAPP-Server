@@ -34,6 +34,8 @@ https://github.com/NJU-TJL/smsAPP-Android
 
 ****
 
+若**图片加载失败**，可访问CSDN博客查看：https://blog.csdn.net/Kingsman_T/article/details/103880417
+
 服务器端程序运行效果展示
 
 <img src="./ImageMD/服务器端程序运行效果展示.jpg" width="600" />
